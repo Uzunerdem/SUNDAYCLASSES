@@ -1,0 +1,14 @@
+public class Students {
+
+    public string firstName = '';
+    public string lastName = 'Erdem';
+    public integer classYear;
+    public string major;
+
+    public string generateReport(){
+
+        system.debug('Report generated for ' + firstName+ ' ' + lastName+ ' ' + 'of' + ' ' +classYear);
+        return major;
+
+    }
+}
